@@ -263,12 +263,12 @@ def load_data():
 
 @st.cache_resource
 def load_model():
-    model = joblib.load('Trained_XGBoost_&_Cleaned_Dataset.pkl')
-    with open('../OUTPUT/feature_columns.json', 'r') as f:
+    model = joblib.load('APP/Trained_XGBoost_&_Cleaned_Dataset.pkl')
+    with open('OUTPUT/feature_columns.json', 'r') as f:
         features = json.load(f)
     return model, features
 
-df = pd.read_csv('../DATA/ai_student_impact_dataset.csv')
+df = pd.read_csv('DATA/ai_student_impact_dataset.csv')
 model, feature_columns = load_model()
 
 # Colors

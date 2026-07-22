@@ -1,2 +1,3 @@
-# ML-1-Final-Capstone-Project
-A repo for my ML 1 Final Capstone Project
+# The Burnout Algorithm
+
+# Predicting Who AI is Breaking Before they Break
